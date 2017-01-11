@@ -13,7 +13,7 @@ $arrayMonth = array(
     10 => 'Novembre',
     11 => 'Décembre'
 );
-//var_dump($arrayMonth); 
-echo $arrayMonth[2];
+
+echo $arrayMonth[5];
 
 ?>
