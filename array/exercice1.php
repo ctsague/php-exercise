@@ -13,7 +13,8 @@ $arrayMonth = array(
     10 => 'Novembre',
     11 => 'Décembre'
 );
-
-echo $arrayMonth[5];
+// remplacer la valeur de Août par Aout
+$arrayMonth[7] ='Aout';
+echo $arrayMonth[7];
 
 ?>
