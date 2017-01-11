@@ -7,6 +7,7 @@ $arrayDepHautFrance = array(
     62 => 'Pas de Calais',
     80 => 'Somme',
 );
-var_dump($arrayDepHautFrance);
+//var_dump($arrayDepHautFrance);
+echo $arrayDepHautFrance[59];
 
 ?>
