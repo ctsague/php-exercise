@@ -8,6 +8,6 @@ $arrayDepHautFrance = array(
     80 => 'Somme',
 );
 //var_dump($arrayDepHautFrance);
-echo $arrayDepHautFrance[59];
-
+$arrayDepHautFrance[51] = "Reims";
+echo $arrayDepHautFrance[51];
 ?>
