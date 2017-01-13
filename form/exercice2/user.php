@@ -6,9 +6,7 @@
 </head>
 <body>
 	<p> Bonjour
-		<?php 
-			echo $_POST['nom']. ' '.$_POST['prenom'];
-		?>
+		<?php echo $_POST['nom']. ' '.$_POST['prenom']; ?>
 	</p>
 </body>
 </html>
