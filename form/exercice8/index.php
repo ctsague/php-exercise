@@ -20,11 +20,11 @@
 
 	<?php else : ?> 
 		Bonjour <?= $_POST['civilite'].' '.$_POST['nom'].' '.$_POST['prenom']. ' ficher '.$_FILES['mon_fichier']['name']. ' de type '.$_FILES['mon_fichier']['type'].' bien recu.'; 
-
+		//verifier l'exactitude de l'extenstion
 		$extensions_valides = array( 'jpg' , 'jpeg' , 'gif' , 'png' );
 		$extension_reçu = strtolower(  substr(  strrchr($_FILES['mon_fichier']['name'], '.')  ,1)  );
+
 		if ( in_array($extension_reçu,$extensions_valides) ) echo " Extension correcte"; ?>
-	<?php endif; ?>
-	 
+	<?php endif; ?>	 
 </body>
 </html>
