@@ -5,7 +5,7 @@
 	<title>Mon Formulaire</title>
 </head>
 <body>
-<form action="user.php" method="GET">
+<form action="user.php" method="POST">
 	<p><label>Nom :<input type="text" name="nom"></label></p>
 	<p><label>Prénom :<input type="text" name="prenom"></label></p>
 	<p><input type="submit"></p>
